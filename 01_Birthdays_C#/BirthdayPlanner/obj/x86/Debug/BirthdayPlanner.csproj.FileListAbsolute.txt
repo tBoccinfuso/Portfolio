@@ -1,0 +1,17 @@
+C:\Users\Acer User\Documents\C#\Test2_StartingFiles\BirthdayPlanner\bin\Debug\BirthdayPlanner.exe
+C:\Users\Acer User\Documents\C#\Test2_StartingFiles\BirthdayPlanner\bin\Debug\BirthdayPlanner.pdb
+C:\Users\Acer User\Documents\C#\Test2_StartingFiles\BirthdayPlanner\obj\x86\Debug\BirthdayPlanner.csprojResolveAssemblyReference.cache
+C:\Users\Acer User\Documents\C#\Test2_StartingFiles\BirthdayPlanner\obj\x86\Debug\BirthdayPlanner.FrmPlan.resources
+C:\Users\Acer User\Documents\C#\Test2_StartingFiles\BirthdayPlanner\obj\x86\Debug\BirthdayPlanner.Properties.Resources.resources
+C:\Users\Acer User\Documents\C#\Test2_StartingFiles\BirthdayPlanner\obj\x86\Debug\BirthdayPlanner.csproj.GenerateResource.Cache
+C:\Users\Acer User\Documents\C#\Test2_StartingFiles\BirthdayPlanner\obj\x86\Debug\BirthdayPlanner.exe
+C:\Users\Acer User\Documents\C#\Test2_StartingFiles\BirthdayPlanner\obj\x86\Debug\BirthdayPlanner.pdb
+C:\Users\Thomas\Documents\portfolio\01_Birthdays_C#\BirthdayPlanner\bin\Debug\BirthdayPlanner.exe
+C:\Users\Thomas\Documents\portfolio\01_Birthdays_C#\BirthdayPlanner\bin\Debug\BirthdayPlanner.pdb
+C:\Users\Thomas\Documents\portfolio\01_Birthdays_C#\BirthdayPlanner\obj\x86\Debug\BirthdayPlanner.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Documents\portfolio\01_Birthdays_C#\BirthdayPlanner\obj\x86\Debug\BirthdayPlanner.FrmPlan.resources
+C:\Users\Thomas\Documents\portfolio\01_Birthdays_C#\BirthdayPlanner\obj\x86\Debug\BirthdayPlanner.Properties.Resources.resources
+C:\Users\Thomas\Documents\portfolio\01_Birthdays_C#\BirthdayPlanner\obj\x86\Debug\BirthdayPlanner.csproj.GenerateResource.Cache
+C:\Users\Thomas\Documents\portfolio\01_Birthdays_C#\BirthdayPlanner\obj\x86\Debug\BirthdayPlanner.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\Documents\portfolio\01_Birthdays_C#\BirthdayPlanner\obj\x86\Debug\BirthdayPlanner.exe
+C:\Users\Thomas\Documents\portfolio\01_Birthdays_C#\BirthdayPlanner\obj\x86\Debug\BirthdayPlanner.pdb

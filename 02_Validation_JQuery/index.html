@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+	<head>
+		<script src="library/jquery-3.2.1.min.js"></script>
+		<script src="clientCode/valid.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<h1>Computer Survey</h1>
+		<h2 name="hedQuestions" id="hedQuestions" class="opened">Questions:</h2>
+		<div id="divQuestions">
+			<p>Which of the following OSes do you use:</p>
+			<input type="checkbox" name="chkOS" id="chkWin" value="Windows">Windows<br/>
+			<input type="checkbox" name="chkOS" id="chkApple" value="Apple">Apple<br/>
+			<input type="checkbox" name="chkOS" id="chkLinux" value="Linux">Linux<br/>
+			<input type="checkbox" name="chkOS" id="chkOther" value="other">Other
+			<input type="text" name="txtOther" id="txtOther" style="display: none;"/><br/><br/>
+			
+		</div>
+		<h2 name="hedPerQuestions" id="hedPerQuestions" class="opened">Personal Info:</h2>
+		<div id="divPersonalInfo">
+			<label for="txtPC">Postal Code:</label>
+			<input type="text" name="txtPC" id="txtPC"/><br/><br/>
+			<label for="txtIncome">Yearly Income:</label>
+			<input type="text" name="txtIncome" id="txtIncome"/><br/><br/>
+			<label for="rdoGender">Gender (at birth):</label><br/>
+			<input type="radio" name="rdoGender" id="rdoMale" value="M">Male<br/>
+			<input type="radio" name="rdoGender" id="rdoFemale" value="F">Female<br/>
+		</div>
+		<br/>
+		<input type="button" name="btnSubmit" id="btnSubmit" value="Submit Survey" />
+		<div id="errors"></div>
+	</body>
+</html>

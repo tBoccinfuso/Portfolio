@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Gigantic Drafts</title>
+<meta name="description" content="Gigantic Drafter is a web tool used for drafting in competitive Gigantic matches.">
+<link rel="stylesheet"  type="text/css" href="css/style.css" />
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='shortcut icon' type='image/x-icon' href='images/favicon.ico'/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="draft.js"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script>
+            const socket = io.connect('http://localhost:1245');
+            socket.on('connect', function(data) {
+                socket.emit('join', 'Hello');
+            });
+            socket.on('messages', function(data) {
+                alert(data);
+        });
+        </script>
+</head>
+<body >
+    
+  <section>
+        <div id="beginDraft">
+          <input type="button" value="Begin Draft" class="btn"  id="pickBtn" onclick="startDraft()">
+        </div>
+
+         <div id="draftScreen">             
+                   <h1 id="teamName1"> TEAM 1 </h1>                   
+                  <div class="banPick">
+                       <div class="picked">
+                           <h2>Picked</h2>
+                            <div id="pick1_1"></div>
+                        </div>
+                            <div class="picked"> 
+                            <div id="pick1_2"></div>
+                        </div>
+                            <div class="picked"> 
+                            <div id="pick1_3"></div>
+                        </div>
+                            <div class="picked"> 
+                            <div id="pick1_4"></div>
+                        </div>
+                            <div class="picked"> 
+                            <div id="pick1_5"></div>
+                        </div>
+                            <div class="picked"> 
+                            <div id="pick1_6"></div>
+                        </div>
+                   </div>
+
+              <div class="statDiv">
+                  <div id="o">OFFENSE: </div><div id="progressbar">
+                    <div id='T1A'></div>
+                    </div><br><br>
+
+                  <div id="d">DEFENSE: </div><div id="progressbar">
+                    <div id="T1D"></div>
+                    </div><br><br>
+
+                  <div id="m">MOBILITY: </div><div id="progressbar">
+                      <div id="T1M"></div>
+                    </div><br><br>
+
+                  <div id="u">UTILITY: </div><div id="progressbar">
+                      <div id='T1U'></div>
+                    </div>
+              </div>         
+         </div>
+         
+    <div id="draftScreen2">
+                   <h1 id="teamName2"> TEAM 2 </h1>
+                   <div class="banPick">
+                       <div class="picked">
+                           <h2>Picked</h2>
+                            <div id="pick2_1"></div>
+                        </div>
+                            <div class="picked"> 
+                            <div id="pick2_2"></div>
+                        </div>
+                            <div class="picked"> 
+                            <div id="pick2_3"></div>
+                        </div>
+                            <div class="picked"> 
+                            <div id="pick2_4"></div>
+                        </div>
+                            <div class="picked"> 
+                            <div id="pick2_5"></div>
+                        </div>
+                            <div class="picked"> 
+                            <div id="pick2_6"></div>
+                        </div>
+                   </div>
+
+        <div class="statDiv">
+                <div id="o">OFFENSE: </div><div id="progressbar">
+                    <div id='T2A'></div>
+                  </div><br><br>
+
+                <div id="d">DEFENSE: </div><div id="progressbar">
+                    <div id="T2D"></div>
+                  </div><br><br>
+
+                <div id="m">MOBILITY: </div><div id="progressbar">
+                    <div id="T2M"></div>
+                  </div><br><br>
+
+                <div id="u">UTILITY: </div><div id="progressbar">
+                    <div id='T2U'></div>
+                  </div>   
+        </div>
+    </div>
+
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content w3-animate-opacity w3-card-4">
+        <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>        
+      
+              <div class="modalContainer">
+                <p id="modalTitle"></p>
+                <select id="heroName"></select>
+                <select id="heroName2"></select>
+                <input type="submit"  id="btnCommit" value="commit" onclick="btnCommit()">
+                <p id="timer"></p>
+              </div>
+        </div> 
+    </div>
+  </section>
+
+</body>
+</html>

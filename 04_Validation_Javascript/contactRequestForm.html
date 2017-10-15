@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Communication and Management Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  <h1>Contact Request Form</h1>
+  <form name=requestForm  method="POST" action="/inquiry">
+      
+    <section id="contact-section">
+      <div class="row">
+        <label for="firstName">First Name: *<input type="text" id="firstName" name="firstName" placeholder="First Name" ></label>
+        <label for="lastName">Last Name: *<input type="text" id="lastName" name="lastName" placeholder="Last Name" ></label>
+         
+      </div>
+      <div class="row">
+        <label for="companyName">Company Name (optional): <input type="text" id="companyName" name="companyName" placeholder="Company"></label>
+      </div>
+      <div class="row">
+        <label for="contactEmail">Contact Email: *<input type="text" id="contactEmail" name="contact" placeholder="Contact Email"></label>
+        </div>
+        <div class="row">
+        <label for="contactPhone">Contact Phone: *<input type="text" id="contactPhone" name="contact" placeholder="Contact Phone"></label>
+        </div>
+        
+      </div>
+    </section>
+  
+      <div class="row">
+        <textArea id="projectDetails" name="projectDetails" placeholder="Project Details"></textArea>
+      </div>
+    
+    <section class="controls">
+      
+      <button id="btnSubmit" class="button"  type="submit" >Send Contact Request</button>
+        
+    </section>
+      <em>* Required Info!</em>
+      <div>     
+        <p id="contactError"></p>   
+        </div>
+  </form>
+  <script src="./javascript/contactRequestForm.js"></script>
+</body>
+</html>

@@ -1,0 +1,386 @@
+@font-face {font-family: troika; src: url('troika.otf');}
+
+body{
+    background-color: darkslategray;
+    margin: 0;
+    color: #fff;
+    
+}
+
+h1{
+    color: white;
+    padding: 2%;
+    font-family: troika;
+    font-size: 60px;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+button {
+    display: inline-block;
+    height: 100px;
+    padding: 0;
+    margin: 0;
+    width: 149px;
+}
+
+.modalContainer img{
+    border-radius: 20px 20px 5px 5px;
+    width: 150px;
+    height: 100px;
+    box-shadow: 0px 20px 30px #000;
+}
+#beginDraft{
+    width: 100%;
+}
+
+.hidden{
+    position: absolute;
+    left: -99999px;
+}
+
+.btn{
+    position: relative;
+     text-align: center;
+     font-family: troika;
+     color: green;
+     padding: 10px 15px;
+     border-radius: 3px;
+     background-color: #154352;
+     font-size: 28px;
+     margin-left: 45.5%;
+     margin-bottom: 1%;
+     text-shadow:  5px 0 #000;     
+     -webkit-box-shadow: 0 0 5px 2px black;
+    -moz-box-shadow: 0 0 5px 2px black;
+    box-shadow: 0 0 5px 2px black;
+     cursor: pointer;
+    outline:none;
+}
+.btn:hover{
+    transform: scale(1.2);
+    
+     -webkit-box-shadow: 0 0 5px 2px green;
+    -moz-box-shadow: 0 0 5px 2px green;
+    box-shadow: 0 0 5px 2px green;
+}
+
+h2{
+    color: white;
+    padding: 2%;
+    font-family: troika;
+    font-size: 30px;
+    letter-spacing: 2px;
+    border-bottom: 10px solid white;
+    margin-top: 0;
+}
+#banPick{
+    margin: auto;
+    padding: 0%;
+    text-align: center;
+    width: 80%;
+}
+.picked{
+    margin: 10px;
+    display: inline-block;
+}
+.picked h2{
+    font-family: troika;
+}
+
+.picked img{
+    border-radius: 20px 20px 5px 5px;
+    width: 200px;
+    height: 150px;
+    padding-bottom: 18px;    
+}
+
+.hero{    
+    margin: 10px; 
+    display:inline-block;
+
+}
+.hero img{
+    border-radius: 20px 20px 5px 5px;
+    width: 80%;
+    height: auto;
+}
+section{
+    width:95%;
+    margin: 1% auto;
+}
+
+
+#progressbar {
+      background-color: black;
+      border-radius: 13px; /* (height of inner div) / 2 + padding */
+      padding: 3px;
+      width: 300px;
+      margin: auto;
+      float: left;
+    }
+    
+    #progressbar > div {
+       background-color: green;
+       width: 0; /* Adjust with JavaScript */
+       height: 18px;
+       border-radius: 10px;
+    }
+     #progressbar #T1D {
+       background-color: green;
+       width: 0; /* Adjust with JavaScript */
+       height: 18px;
+       border-radius: 10px;
+    }
+    #progressbar #T1A{
+        background-color: green;
+       width: 0; /* Adjust with JavaScript */
+       height: 18px;
+       border-radius: 10px;
+    }
+    #progressbar #T1M{
+        background-color: green;
+       width: 0; /* Adjust with JavaScript */
+       height: 18px;
+       border-radius: 10px;
+    }
+    #progressbar #T1U{
+        background-color: green;
+       width: 0%; /* Adjust with JavaScript */
+       height: 18px;
+       border-radius: 10px;
+    }
+
+    #progressbar #T2D {
+       background-color: green;
+       width: 0; /* Adjust with JavaScript */
+       height: 18px;
+       border-radius: 10px;
+    }
+    #progressbar #T2A{
+        background-color: green;
+       width: 0; /* Adjust with JavaScript */
+       height: 18px;
+       border-radius: 10px;
+    }
+    #progressbar #T2M{
+        background-color: green;
+       width: 0; /* Adjust with JavaScript */
+       height: 18px;
+       border-radius: 10px;
+    }
+    #progressbar #T2U{
+        background-color: green;
+       width: 0%; /* Adjust with JavaScript */
+       height: 18px;
+       border-radius: 10px;
+    }
+#o{
+    float: left;
+    color: #fff;
+    font-family: troika;
+    font-size: 20px;
+    padding-right: 1%;
+    margin-left: 20%;
+}
+#d{
+    float: left;
+    color: #fff;
+    font-family: troika;
+    font-size: 20px;
+    padding-right: 1%;
+    margin-left: 20%;
+}
+#m{
+    float: left;
+    color: #fff;
+    font-family: troika;
+    font-size: 20px;
+    padding-right: 1%;
+    margin-left: 19%;
+}
+#u{
+    float: left;
+    color: #fff;
+    font-family: troika;
+    font-size: 20px;
+    padding-right: 1%;
+    margin-left: 21%;
+}
+
+
+#heroes{ 
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    width: 90%;
+    background-color: #154352;   
+}
+
+#draftScreen{   
+    text-align: center;  
+    width:45%;
+    background-color: #154352;
+    float: left;
+    margin-right: 10%;
+    margin-bottom: 2%;
+    
+}
+#draftScreen2{   
+    text-align: center;  
+    width:45%;
+    background-color: #154352;
+    float: left;
+}
+.statDiv{
+    padding-bottom: 5%;
+}
+
+.banned{
+     
+    display:inline-block;  
+   background: linear-gradient(
+      rgba(255, 0, 0, 0.45), 
+      rgba(255, 0, 0, 0.45)
+    ),url(this.src);
+    border-radius: 20px 20px 5px 5px;
+}
+.banned img{
+    opacity: 0.5;
+    border-radius: 20px 20px 5px 5px;
+}
+
+.modalContainer{
+    margin-top: 5%;
+    background-color: darkslategray;
+    text-align: center;
+    font-family: troika;
+    color: #fff;
+    font-size: 45px;
+    padding-bottom: 20px;
+}
+select{
+    height: 70px;
+    border-radius: 20px 20px 5px 5px;
+    border-color: #000;
+    margin: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('../images/ddmArrow.png') no-repeat;
+    background-position: 95%;
+    background-size: 33px;
+    padding-left: 1%;
+}
+select:focus{
+    outline: none;
+}
+
+.index{
+    margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  width: 250px;
+  height: 25%;
+   text-align: left;
+     font-family: troika;
+}
+
+.btnIndex  {
+    text-align: center;
+     font-family: troika;
+     color: white;
+     padding: 10px 15px;
+     border-radius: 3px;
+     background-color: #154352;
+     font-size: 28px;
+     margin: auto;
+     text-shadow:  5px 0 #000;
+     box-shadow: 0px 10px 20px #000;
+}
+.btnIndex:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 20px 30px #000;
+    cursor:pointer;
+}
+.index select{
+    width: 225px;
+    height: 40px;
+    font-family: troika;
+    border: 0;
+    color: #fff;
+    background-color: #154352;
+    margin-bottom: 20px;
+}
+input[type='text']{
+    outline:none;
+    margin-left: 1%;
+    color: #fff;
+    background-color: #154352;
+    margin-bottom: 20px;
+    width: 225px;
+}
+#mapSelect{
+    margin-left: 1%;
+    border: 1px solid;
+    outline: none;
+}
+
+footer {
+    text-align: center;
+    font-family: troika;
+    margin-left: -1%;
+    width: 100%;
+}
+footer img{
+    height: 10px;
+}
+#btnCommit{
+    margin-left: 2%;
+    color: #fff;
+    background-color: #154352;
+    border-radius: 20px 20px 20px 20px;
+    cursor: pointer;
+    outline: none;
+}
+#btnCommit:hover{
+    transform: scale(1.2);
+}
+#heroName, #heroName2{
+    color: #fff;
+    background-color: #154352;
+    width: 40%;
+    height: 70px;
+   overflow: hidden;  
+   outline: none;
+   margin: auto;
+}
+
+#teamName1, #teamName2{
+    margin: auto;
+    font-size: 50px;
+    font-family: troika;
+}
+@media screen and (min-width: 1920px){
+    #beginDraft{
+        max-width: 100%;
+    }
+    .btn{
+       width: 10%;
+       margin-left: 45%; 
+    }
+}
+@media screen and (min-width: 1440px){
+    .btn{
+       width: 10%;
+       margin-left: 45%; 
+    }
+}
+@media screen and (min-width: 1280px){
+    .btn{
+       width: 10%;
+       margin-left: 45%; 
+    }
+}
+

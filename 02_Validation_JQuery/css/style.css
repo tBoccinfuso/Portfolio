@@ -1,0 +1,11 @@
+.closed
+{
+	color: blue;
+	text-decoration: underline;
+}
+
+.open
+{
+	color: black;
+	text-decoration: none;
+}
