@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="InterfacePayable.Invoice" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAABAAAEAQAAAAAAAAAAAACABAAAgAQAAAA=</HashCode>
+      <FileName>BusinessLogic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InterfacePayable.Employee" BaseTypeListCollapsed="true">
+    <Position X="4.5" Y="0.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEIAAAACAAEAAAAAAUAAAAFAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLogic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="InterfacePayable.FrmGetAmount">
+    <Position X="0.5" Y="1.75" Width="1.75" />
+    <Members>
+      <Field Name="btnList" Hidden="true" />
+      <Field Name="btnTotal" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="FrmGetAmount" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAAAACgCAAAAAAAACAAAACAAgAAAAAAAAAAAAYAEA=</HashCode>
+      <FileName>FrmGetAmount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="InterfacePayable.IPayable">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BusinessLogic.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

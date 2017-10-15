@@ -1,0 +1,9 @@
+C:\Users\Thomas\Documents\portfolio\InterfacePayable\bin\Debug\InterfacePayable.exe
+C:\Users\Thomas\Documents\portfolio\InterfacePayable\bin\Debug\InterfacePayable.pdb
+C:\Users\Thomas\Documents\portfolio\InterfacePayable\obj\x86\Debug\InterfacePayable.csprojResolveAssemblyReference.cache
+C:\Users\Thomas\Documents\portfolio\InterfacePayable\obj\x86\Debug\InterfacePayable.FrmGetAmount.resources
+C:\Users\Thomas\Documents\portfolio\InterfacePayable\obj\x86\Debug\InterfacePayable.Properties.Resources.resources
+C:\Users\Thomas\Documents\portfolio\InterfacePayable\obj\x86\Debug\InterfacePayable.csproj.GenerateResource.Cache
+C:\Users\Thomas\Documents\portfolio\InterfacePayable\obj\x86\Debug\InterfacePayable.csproj.CoreCompileInputs.cache
+C:\Users\Thomas\Documents\portfolio\InterfacePayable\obj\x86\Debug\InterfacePayable.exe
+C:\Users\Thomas\Documents\portfolio\InterfacePayable\obj\x86\Debug\InterfacePayable.pdb
