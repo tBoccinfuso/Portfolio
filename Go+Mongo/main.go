@@ -36,7 +36,7 @@ func main() {
 func form(w http.ResponseWriter, r *http.Request) {
 
 	//Setting up MongoDB connection
-	session, err := mgo.Dial("mongodb://testUser:password@ds051553.mlab.com:51553/test_v1")
+	session, err := mgo.Dial('mongodb://localhost:27017/test')
 	if err != nil {
 		panic(err)
 	}
